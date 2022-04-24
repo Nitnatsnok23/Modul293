@@ -1,17 +1,82 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <link rel="stylesheet" href="shop.css">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shop.css" />
     <title>Simple WebShop</title>
-</head>
-<body>
-    <div class="grid-container">
-        <div class="grid-item grid-item-1"><img class="image" src="img/gruss1.jpg" alt="Gruss1"> <h3 class="heading">Gruss aus der Küche A</h3> <ul class="list"> <li>Mostbröckli</li> <li>Apfel</li> <li>Mango</li> <li>Huttenkäse</li> <li>Frischkäsepraline</li> </ul> <div class="flexbox"><p class="cart">In den Warenkorb</p></div></div>
-        <div class="grid-item grid-item-2"><img class="image" src="img/gruss2.jpg" alt="Gruss2"> <h3 class="heading">Gruss aus der Küche B</h3> <ul class="list"><li>Tomaten Chutney</li><li>Mini-Flammkuchen</li><li>Käsekuchen</li></ul><div class="flexbox"><p class="cart">In den Warenkorb</p></div></div>
-        <div class="grid-item grid-item-3"><img class="image" src="img/salat.jpg" alt="Salat"> <h3 class="heading">Bunter Blattsalat</h3><ul class="list"><li>Gebratene Pilze</li><li>Apfeldressing</li></ul><div class="flexbox"><p class="cart">In den Warenkorb</p></div></div>
-        <div class="grid-item grid-item-4"><img class="image" src="img/zwischen.jpg" alt="Gänseleber-Taler"><h3 class="heading">Gänseleber-Taler</h3><ul class="list"><li>Orangensorbet</li><li>Sauerrahmschaum</li></ul><div class="flexbox"><p class="cart">In den Warenkorb</p></div></div>
-        <div class="grid-item grid-item-5"><img class="image" src="img/kalb.jpg" alt="Kalb"><h3 class="heading">Kalbshohrückensteak</h3><ul class="list"><li>Gniocchi</li><li>Frühlingsgemüse</li><li>Bohnnepüree</li></ul><div class="flexbox"><p class="cart">In den Warenkorb</p></div></div>
-        <div class="grid-item grid-item-6"><img class="image" src="img/schoko.jpg" alt="Schokoladenküchlein"><h3 class="heading">Warmes Schokoladenküchlein</h3><ul class="list"><li>Blutorange</li><li>Pistazien</li></ul><div class="flexbox"><p class="cart">In den Warenkorb</p></div></div>
-      </div>
-</body>
+  </head>
+  <body>
+    <div class="titleposition"><p>Unser Angebot</p></div>
+    <div class="navigationPane">
+      <ul>
+        <li class="nav"><img class="icons" src="img/home.svg" alt="Home"><p>Home</p></li>
+        <li class="nav"> <img class="icons" src="img/shop.svg" alt="Shop"><p>Shop</p></li>
+        <li class="nav"><img class="icons" src="img/contact.svg" alt="Kontakt"><p>Kontakt</p></li>
+      </ul>
+    </div>
+ 
+    <div class="gruss1 kachel">
+     <img src="img/gruss1.jpg" alt="MenuItem1 - Gruss1">
+      <h3 class="headings">Gruss aus der Küche A</h3>
+      <ul class="list">
+        <li>Mostbröckli</li>
+        <li>Apfel</li>
+        <li>Mango</li>
+        <li>Hüttenkäse</li>
+        <li>Frischkäsepraliné</li>
+      </ul>
+      <button class="toCart">In den Warenkorb</button>
+    </div>
+    <div class="gruss2 kachel">
+        <img src="img/gruss2.jpg" alt="MenuItem2 - Gruss2">
+      <h3 class="headings">Gruss aus der Küche B</h3>
+      <ul class="list">
+        <li>Tomaten Chutney</li>
+        <li>Mini-Flammkuchen</li>
+        <li>Käsekuchen</li>
+      </ul>
+      <button class="toCart">In den Warenkorb</button>
+    </div>
+    <div class="salat kachel">
+      <img src="img/salat.jpg" alt="MenuItem3 - Salat">
+      <h3 class="headings">Bunter Salat</h3>
+      <ul class="list">
+       <li>Gebratene Pilze</li> 
+       <li>Apfeldressing</li> 
+      </ul>
+      <button class="toCart">In den Warenkorb</button>
+    </div>
+    <div class="gans kachel">
+      <img src="img/zwischen.jpg" alt="MenuItem4 - Gänseleber-Taler">
+      <h3 class="headings">Gänseleber-Taler</h3>
+      <ul class="list">
+        <li>Organsorbet</li>
+        <li>Sauerrahmschaum</li>
+      </ul>
+      <button class="toCart">In den Warenkorb</button>
+    </div>
+    <div class="kalb kachel">
+        <img src="img/kalb.jpg" alt="MenuItem5 - Kalbshohrückensteak">
+        <h3 class="headings">Kalbshohrückensteak</h3>
+        <ul class="list">
+            <li>Gniochhi</li>
+            <li>Frühlingsgemüse</li>
+            <li>Bohnenpüree</li>
+    </ul>
+        <button class="toCart">In den Warenkorb</button>
+    </div>
+    <div class="dessert kachel">
+        <img src="img/schoko.jpg" alt="MenuItem6 - Schokoladenküchlein">
+        <h3 class="headings">Warmes Schokoladenküchlein</h3>
+        <ul class="list">
+            <li>Blutorange</li>
+            <li>Pistazien</li>
+        </ul>
+        <button class="toCart">In den Warenkorb</button>
+    </div>
+  </body>
 </html>
+
+
